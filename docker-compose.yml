@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: maison-arabica:local
+    container_name: arabica
+    ports:
+      - "8085:8080"          # ← port VM : port conteneur
+    restart: unless-stopped

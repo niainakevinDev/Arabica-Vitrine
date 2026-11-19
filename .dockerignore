@@ -1,0 +1,10 @@
+.git
+.gitignore
+Jenkinsfile
+docker-compose.yml
+Dockerfile
+.dockerignore
+README.md
+*.md
+.DS_Store
+node_modules
